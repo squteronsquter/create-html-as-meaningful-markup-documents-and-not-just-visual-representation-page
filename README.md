@@ -2,6 +2,14 @@
 
 (https://raw.githubusercontent.com/squteronsquter/create-html-as-meaningful-markup-documents-and-not-just-visual-representation-page/main/assets/img/html-markup-done-right.jpg)
 
+## This images shows how to do markup in a correct way
+
+
+>correct is on the left side,incorrect on the right side
+
+
+<img src="https://raw.githubusercontent.com/squteronsquter/create-html-as-meaningful-markup-documents-and-not-just-visual-representation-page/main/assets/img/html-markup-done-right.jpg">
+
 ```
 <!-- Very important! if you omit DOCTYPE the browser or robots crawling the internet may try to read it as a legacy format and misinterpret your document
 https://html.spec.whatwg.org/#the-html-element -->
