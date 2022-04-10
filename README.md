@@ -27,8 +27,7 @@ https://html.spec.whatwg.org/#the-head-element -->
     <meta charset="UTF-8">
     <!-- title is important for many reasons. One of them being search engines index the other eg. the text that will appear in the favorite websites when someone bookmarks your page
     https://html.spec.whatwg.org/#the-title-element -->
-    <title>Gray Monk's blog on SEO - Search Engine Optimization aka how to get your blog posts to the top of search
-        results.</title>
+    <title>Gray Monk Resume</title>
 </head>
 <!-- <body> is the container of your documents content. It is also a sectioning root.
     https://html.spec.whatwg.org/#the-body-element -->
@@ -42,7 +41,7 @@ There may bo no more than one main element on a page. main element cannot be par
     <!-- headings
     https://html.spec.whatwg.org/#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements 
 https://html.spec.whatwg.org/#heading-content -->
-    <h1>How to get your blog posts at the top of search results</h1>
+    <h1>Resume</h1>
     <!-- A <section> element represents a generic section of a document, it usually is a thematic group with its own heading
             https://html.spec.whatwg.org/#the-section-element -->
     <section>
