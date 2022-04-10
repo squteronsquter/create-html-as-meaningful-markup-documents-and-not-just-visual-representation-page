@@ -1,11 +1,13 @@
-# README firsrt for comments on html elements and meaning - not visual representation
+<img src="https://www.insidedms.com/img/logo.svg" alt="Digital Mind Solution Logo">
+
+# Create Proper Markup in HTML Documents
 
 (https://raw.githubusercontent.com/squteronsquter/create-html-as-meaningful-markup-documents-and-not-just-visual-representation-page/main/assets/img/html-markup-done-right.jpg)
 
 ## This images shows how to do markup in a correct way
 
 
->correct is on the left side,incorrect on the right side
+>correct is on the left side, incorrect on the right side
 
 
 <img src="https://raw.githubusercontent.com/squteronsquter/create-html-as-meaningful-markup-documents-and-not-just-visual-representation-page/main/assets/img/html-markup-done-right.jpg">
