@@ -12,7 +12,7 @@
 <img src="https://raw.githubusercontent.com/squteronsquter/create-html-as-meaningful-markup-documents-and-not-just-visual-representation-page/main/assets/img/html-markup-done-right.jpg">
 
 ```
-<!-- Very important! if you omit DOCTYPE the browser or robots crawling the internet may try to read it as a legacy format and misinterpret your document
+<!-- Important Notice! if you omit <DOCTYPE> the browser or robots crawling the internet may try to read it as a legacy format and misinterpret your document
 https://html.spec.whatwg.org/#the-html-element -->
 <!DOCTYPE html>
 
@@ -20,7 +20,7 @@ https://html.spec.whatwg.org/#the-html-element -->
 https://html.spec.whatwg.org/#the-html-element -->
 <html lang="en">
 
-<!-- very important as it contains metadata (data about other data) of your page:
+<!-- <head> element is very important as it contains metadata (data about other data) of your page:
 https://html.spec.whatwg.org/#the-head-element -->
 
 <head>
@@ -30,7 +30,7 @@ https://html.spec.whatwg.org/#the-head-element -->
     <title>Gray Monk's blog on SEO - Search Engine Optimization aka how to get your blog posts to the top of search
         results.</title>
 </head>
-<!-- body is the container of your documents content. It is also a sectioning root.
+<!-- <body> is the container of your documents content. It is also a sectioning root.
     https://html.spec.whatwg.org/#the-body-element -->
 
 <body>
@@ -38,7 +38,7 @@ https://html.spec.whatwg.org/#the-head-element -->
     https://html.spec.whatwg.org/#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements 
 https://html.spec.whatwg.org/#heading-content -->
     <h1>How to get your blog posts at the top of search results</h1>
-    <!-- A section element represents a generic section of a document, it usually is a thematic group with its own heading
+    <!-- A <section> element represents a generic section of a document, it usually is a thematic group with its own heading
             https://html.spec.whatwg.org/#the-section-element -->
     <section>
         <!-- heading might be implicit or explicit. When before a section it implies that it is the heading related to the section below. When iside a section it explicitly says that it is the heading of that section -->
@@ -58,7 +58,7 @@ https://html.spec.whatwg.org/#heading-content -->
             <dd>@_graymonk_</dd>
         </dl>
     </section>
-    <!-- article is a self contained complete, composition in a document, which can by itself be a separate document eg. a blog post 
+    <!-- <article> is a self contained complete, composition in a document, which can by itself be a separate document eg. a blog post 
     https://html.spec.whatwg.org/#the-article-element -->
     <article>
         <!-- header is an element intended to contain sections heading (h1-h6 elements)
@@ -72,7 +72,7 @@ https://html.spec.whatwg.org/#heading-content -->
             focus on reading, without any distractions. Try to implement the rules I am writing about in your own future
             projects.
         </p>
-        <!-- aside is an element which could be considered related but separate from the content surrounding it, eg. sidebar could be placed in aside element.Do not think about visual representation of that aside element, think about it as marking up content eg. for future functionality when agents will be able to read it in a different voice or print it as a footnote or even something else.
+        <!-- <aside> is an element which could be considered related but separate from the content surrounding it, eg. sidebar could be placed in aside element.Do not think about visual representation of that aside element, think about it as marking up content eg. for future functionality when agents will be able to read it in a different voice or print it as a footnote or even something else.
                 https://html.spec.whatwg.org/#the-aside-element -->
         <aside>
             <p>
@@ -80,7 +80,7 @@ https://html.spec.whatwg.org/#heading-content -->
                 Digital marketing deserves an utterly human touch to be able to breathe new ideas into people.
             </p>
         </aside>
-        <!-- The footer element represents a footer for its nearest ancestor sectioning content or sectioning root element. A footer
+        <!-- The <footer> element represents a footer for its nearest ancestor sectioning content or sectioning root element. A footer
         typically contains information about its section such as who wrote it, links to related documents, copyright data, and
         the like. https://html.spec.whatwg.org/#the-footer-element -->
         <footer>
@@ -161,7 +161,7 @@ https://html.spec.whatwg.org/#heading-content -->
     </section>
     <section>
         <h2>Testimonials</h2>
-        <!-- blockquote. The blockquote element represents a section that is quoted from another source.
+        <!-- <blockquote> element. The blockquote element represents a section that is quoted from another source.
                     https://html.spec.whatwg.org/#the-blockquote-element -->
         <blockquote>
             <p>We have been working together over the last six years launching many successful projects.</p>
@@ -182,7 +182,7 @@ https://html.spec.whatwg.org/#heading-content -->
         </blockquote>
     </section>
     <section>
-        <!-- address element: The address element represents the contact information for its nearest article or body element ancestor. If that is the body element, then the contact information applies to the document as a whole.
+        <!-- <address> element: The address element represents the contact information for its nearest article or body element ancestor. If that is the body element, then the contact information applies to the document as a whole.
         https://html.spec.whatwg.org/#the-address-element -->
         <h2>Mailing Address</h2>
         <address>
@@ -196,7 +196,7 @@ https://html.spec.whatwg.org/#heading-content -->
 
     </section>
     <footer>
-        <!-- address element: The address element represents the contact information for its nearest article or body element ancestor. If that is the body element, then the contact information applies to the document as a whole.
+        <!-- <address> element: The address element represents the contact information for its nearest article or body element ancestor. If that is the body element, then the contact information applies to the document as a whole.
         https://html.spec.whatwg.org/#the-address-element -->
         <address>
             <p>
@@ -207,7 +207,7 @@ https://html.spec.whatwg.org/#heading-content -->
         <p><small>© copyright 2022 Digital Mind Solutions</small></p>
     </footer>
 
-    <!-- Tabular data: The table element represents data with more than one dimension, in the form of a table.
+    <!-- Tabular data: The <table> element represents data with more than one dimension, in the form of a table.
 
 The table element takes part in the table model. Tables have rows, columns, and cells given by their descendants. The rows and columns form a grid; a table's cells must completely cover that grid without overlap.
 https://html.spec.whatwg.org/#the-table-element -->
@@ -215,4 +215,5 @@ https://html.spec.whatwg.org/#the-table-element -->
 </body>
 
 </html>
+
 ```
