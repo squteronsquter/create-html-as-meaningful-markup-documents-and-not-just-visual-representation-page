@@ -2,9 +2,8 @@
 
 # Create Proper Markup in HTML Documents
 
-(https://raw.githubusercontent.com/squteronsquter/create-html-as-meaningful-markup-documents-and-not-just-visual-representation-page/main/assets/img/html-markup-done-right.jpg)
 
-## This images shows how to do markup in a correct way
+## The images below shows how to do markup in a correct way
 
 
 >correct is on the left side, incorrect on the right side
