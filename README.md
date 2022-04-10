@@ -149,7 +149,7 @@ https://html.spec.whatwg.org/#heading-content -->
         </p>
 
         <h3>Own Interactive Agency</h3>
-        <p>Curated list of clients ranging from an International Industrial Automation Systems producer from Germany
+        <p>Supporting clients ranging from an International Industrial Automation Systems producer from Germany
             through a Polish business consulting entity working for to WSE (Warsaw Stock Exchange) listed companies,
             Italian
             Lifestyle magazine, Polish Health & Beauty magazine, Regional HoReCa and Bakery shops
@@ -158,6 +158,78 @@ https://html.spec.whatwg.org/#heading-content -->
     </section>
     <section>
         <h2>Portfolio</h2>
+
+               <table>
+            <caption>My Active Projects List (Selection)
+            </caption>
+            <thead>
+                <tr>
+                    <th>Project Name
+                    <th>Services Provided
+                    <th>Technology Used
+                    <th>Scope of Support
+            <tbody>
+                <tr>
+                    <th>art fo BEAUTY - online magazine
+                    <th>built website
+                    <th>PHP CSS JavaScript
+                    <th>VPS administration, supporting editors, functionality enhancements
+                <tr>
+                    <th>Sklep art fo BEAUTY - e-Commerce website
+                    <th>built website
+                    <th>PHP CSS JavaScript
+                    <th>VPS administration, supporting editors, functionality enhancements
+                <tr>
+                    <th> Kongresy art fo BEAUTY - Events website
+                    <th>built website
+                    <th>PHP CSS JavaScript
+                    <th>VPS administration, supporting editors, functionality enhancements
+                <tr>
+                    <th> Witalne Inspiracje - Lifestyle website
+                    <th>built website
+                    <th>PHP CSS JavaScript
+                    <th>VPS administration, supporting editors, functionality enhancements
+                <tr>
+                    <th>Estetica Polska - online magazine
+                    <th>built website
+                    <th>PHP CSS JavaScript
+                    <th>VPS administration, supporting editors, functionality enhancements
+                <tr>
+                    <th>Fundacja Rozwoju Regionów - Charity Foundation website
+                    <th>re-built website and moved to VPS
+                    <th>Hugo, GoLang, CSS, Javascript
+                    <th>I work for free as developer, VPS administrator, supporting editors, functionality enhancements
+
+
+                <tr>
+                    <th>A.J. Motyl - corporate website
+                    <th>built website
+                    <th>PHP CSS JavaScript
+                    <th>VPS administration, supporting editors, functionality enhancements
+                <tr>
+                    <th>Oferta A.J. Motyl - e-Commerce website
+                    <th>built website
+                    <th>Python, React JS, CSS, Javascript
+                    <th>VPS administration, supporting editors, functionality enhancements
+
+
+                <tr>
+                    <th>Materiality - corporate website in PL & ENG
+                    <th>built website
+                    <th>PHP CSS Javascript
+                    <th>Hosting administration, supporting editors, functionality enhancements
+
+                <tr>
+                    <th>FSR (Fundacja Standardów Raportowania) - corporte website
+                    <th>built website
+                    <th>PHP CSS Javascript
+                    <th>Hosting administration, supporting editors, functionality enhancements
+                <tr>
+                    <th>Mailing Server System for 3 major clients - mass mailing on own mailing servers
+                    <th>built mailing system based on PHPlist
+                    <th>PHP CSS Javascript
+                    <th>Hosting administration, sending campaigns on daily basis
+        </table>
     </section>
     <section>
         <h2>Testimonials</h2>
