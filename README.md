@@ -34,6 +34,11 @@ https://html.spec.whatwg.org/#the-head-element -->
     https://html.spec.whatwg.org/#the-body-element -->
 
 <body>
+
+<!-- <main> element represents the dominant content of the document 
+There may bo no more than one main element on a page. main element cannot be part of any element, it must be the the child of either <body> element or <div> which is the child of a body element. https://html.spec.whatwg.org/#the-main-element
+-->
+<main>
     <!-- headings
     https://html.spec.whatwg.org/#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements 
 https://html.spec.whatwg.org/#heading-content -->
@@ -284,6 +289,7 @@ https://html.spec.whatwg.org/#heading-content -->
 The table element takes part in the table model. Tables have rows, columns, and cells given by their descendants. The rows and columns form a grid; a table's cells must completely cover that grid without overlap.
 https://html.spec.whatwg.org/#the-table-element -->
 
+</main>
 </body>
 
 </html>
