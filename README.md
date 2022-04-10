@@ -27,7 +27,7 @@ https://html.spec.whatwg.org/#the-head-element -->
     <meta charset="UTF-8">
     <!-- title is important for many reasons. One of them being search engines index the other eg. the text that will appear in the favorite websites when someone bookmarks your page
     https://html.spec.whatwg.org/#the-title-element -->
-    <title>Gray Monk Resume</title>
+    <title>Gray Monk | Resume</title>
 </head>
 <!-- <body> is the container of your documents content. It is also a sectioning root.
     https://html.spec.whatwg.org/#the-body-element -->
@@ -289,6 +289,9 @@ The table element takes part in the table model. Tables have rows, columns, and 
 https://html.spec.whatwg.org/#the-table-element -->
 
 </main>
+<!-- I might have something outside of the <main> element, e.g. an <aside> with some advertisments of my blog, which is not the main subject matter of this resume -->
+
+    <aside>Advertisement for my services or blog</aside>
 </body>
 
 </html>
