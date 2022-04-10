@@ -6,7 +6,7 @@ HYPER Text is not normal text (it means "beyond text"), it is a text in HTML usi
 
 # Links
 
-```<a>``` - thsi element respresents a connection between two resources.
+```<a>``` - this element represents a connection between two resources.
 
 <https://html.spec.whatwg.org/#links>
 
