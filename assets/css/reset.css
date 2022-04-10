@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  font-size: 67.5%;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+  padding: 0;
+}
+
+body {
+  min-block-size: 100vh
+}
+
+img {
+  display: block;
+  max-inline-size: 100%;
+}
+
+/* ch unit is the so called "character" unit based on the width of letter 0 which neither skinny like "i" nor wide like "w". The 60ch width is the best possible width of a paragraph so that it neither to wide nor to narrow for humans to read  */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+figcaption {
+  max-width: 60ch;
+}
+
