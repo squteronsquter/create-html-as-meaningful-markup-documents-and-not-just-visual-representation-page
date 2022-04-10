@@ -1,5 +1,7 @@
 # README firsrt for comments on html elements and meaning - not visual representation
 
+(https://raw.githubusercontent.com/squteronsquter/create-html-as-meaningful-markup-documents-and-not-just-visual-representation-page/main/assets/img/html-markup-done-right.jpg)
+
 ```
 <!-- Very important! if you omit DOCTYPE the browser or robots crawling the internet may try to read it as a legacy format and misinterpret your document
 https://html.spec.whatwg.org/#the-html-element -->
