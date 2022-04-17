@@ -18,6 +18,7 @@
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#testimonials">Testimonials</a></li>
             <li><a href="#mailingaddress">Mailing Address</a></li>
+            <li><a href="#contactme">Contact Me</a></li>
         </ul>
     </nav>
     <main>
@@ -359,6 +360,58 @@
             </address>
             <p><small>© copyright 2022 Digital Mind Solutions</small></p>
         </footer>
+        <section id="contactme">
+            <h2>Contact Me</h2>
+            <form action="dosometing.html" method="POST">
+                <p>
+                    <label for="name">
+                        Name
+                        <input type="text" id="name" name="name" autocomplete="off" required>
+                    </label>
+                </p>
+                <p>
+                    <label for="email">
+                        Email
+                        <input type="email" id="email" name="email">
+                    </label>
+                </p>
+
+                <p>
+                    <label for="whycontacting">Why are you contacting me</label>
+                    <select name="whycontacting" id="whycontacting">
+                        <option value="jobinterview">Job Interview</option>
+                        <option value="needcontractor">Need a developer</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="comments">Your comments</label>
+                    <textarea name="comments" id="comments" cols="30" rows="3"></textarea>
+                </p>
+                <fieldset>
+                    <legend>Best contact time</legend>
+                    <p>
+                        <label for="contacttime1">Morning</label>
+                        <input type="radio" id="contacttime1" name="contacttime" value="morning">
+                    </p>
+                    <p>
+                        <label for="contacttime2">Afternoon</label>
+                        <input type="radio" id="contacttime2" name="contacttime" value="afternoon">
+                    </p>
+                    <p>
+                        <label for="contacttime3">Evening</label>
+                        <input type="radio" id="contacttime3" name="contacttime" value="evening">
+                    </p>
+                    <p>
+                        <label for="asap">ASAP - Urgent?</label>
+                        <input type="checkbox" id="asap" name="asap">
+                    </p>
+                </fieldset>
+                <p>
+                    <button type="submit">Send</button>
+                </p>
+
+            </form>
+        </section>
     </main>
 
 </body>
