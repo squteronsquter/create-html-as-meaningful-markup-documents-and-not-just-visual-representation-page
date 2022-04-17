@@ -37,6 +37,35 @@ https://html.spec.whatwg.org/#the-head-element -->
 <!-- <main> element represents the dominant content of the document 
 There may bo no more than one main element on a page. main element cannot be part of any element, it must be the the child of either <body> element or <div> which is the child of a body element. https://html.spec.whatwg.org/#the-main-element
 -->
+
+<!-- Anchors tags - "id" is one of the global attributes <https://html.spec.whatwg.org/#global-attributes>
+
+The id attribute specifies its element's unique identifier (ID).
+
+There are no other restrictions on what form an ID can take; in particular, IDs can consist of just digits, start with a digit, start with an underscore, consist of just punctuation, etc.
+
+An element's unique identifier can be used for a variety of purposes, most notably as a way to link to specific parts of a document using fragments, as a way to target an element when scripting, and as a way to style a specific element from CSS. -->
+
+<!-- An id can become part of an url as a fragment #aboutme and can lead us to a portion of a resource (webpage) and may try to show it as high as it can depending on the height of a web page. -->
+
+<!-- Therefore we might create ids which will identify a portion of the page and later on create links which will lead directly to them. -->
+
+eg. <article id="aboutme">
+
+<!-- Navigation is a section with navigation links which help you navigate (go to) a portion of a page, another page or an outside web address. Navigation html markup element proper for wrapping up those links is <nav> element. -->
+
+    <nav>
+        <ul>
+            <li><a href="#aboutme">About Me</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#workhistory">Work History</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="mailingaddress">Mailing Address</a></li>
+        </ul>
+    </nav>
+
 <main>
     <!-- headings
     https://html.spec.whatwg.org/#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements 
