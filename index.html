@@ -63,7 +63,7 @@
         </article>
         <section id="services">
             <h2>Services</h2>
-            <ul>
+            <ul class="resume-list">
                 <li>Web Development</li>
                 <li>App Development</li>
                 <li>Marketing Consulting</li>
@@ -77,7 +77,7 @@
         </section>
         <section id="skills">
             <h2>Skills</h2>
-            <ul>
+            <ul class="resume-list">
                 <li>
                     <h3>HTML</h3>
                     <p>Markup content with semantic HTML
@@ -438,6 +438,21 @@
 
             </form>
         </section>
+        <article>
+            <section class="nth-of-type">
+                <p>JPG image is displayed on a background which is different from that of a webp type image.
+                    :NTH-OF-TYPE peseudo selector is used.</p>
+                <img src="/assets/img/html-markup-done-right.jpg" alt="html markup done right - jpg image" width="300">
+                <img src="/assets/img/html-markup-done-right.webp" alt="html markup done right - webp image"
+                    width="300">
+            </section>
+            <section class="no-nth-of-type">
+                <p>These images are not affected by the rules which are applied to images above</p>
+                <img src="/assets/img/html-markup-done-right.jpg" alt="html markup done right - jpg image" width="300">
+                <img src="/assets/img/html-markup-done-right.webp" alt="html markup done right - webp image"
+                    width="300">
+            </section>
+        </article>
     </main>
 
 </body>

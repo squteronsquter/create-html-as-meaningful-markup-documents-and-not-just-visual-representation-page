@@ -15,3 +15,91 @@
 [lang='pl'] {
     color:brown;
 }
+
+a:visited {
+    color:crimson;
+}
+
+a:hover, a:focus {
+    color:aqua;
+}
+
+input:focus, select:focus {
+    outline: 2px solid orangered;
+}
+/* 
+
+This notation of class selectors basically means the same:
+
+
+[class~='resume-list'] {
+    font-style: italic;
+}
+
+*.resume-list {
+    font-style: italic;
+}
+
+.resume-list {
+    font-style: italic;
+} */
+
+.resume-list {
+    font-style: italic;
+}
+
+li + li { color:deepskyblue;}
+
+h2 ~ blockquote {
+    color: goldenrod;
+}
+
+#skills {
+    background-color: #333;   
+    color:bisque;
+    font-weight:light;
+
+}
+/* First in each group of two */
+li:nth-child(2n+1) {
+    font-size:3em;
+}
+/* Second in each group of 2 - even */
+li:nth-child(2n+2) {
+    font-size:2em;
+    font-family:sans-serif;
+    font-style: normal;
+    text-decoration:underline;
+}
+/* first in each group of 3 */
+li:nth-child(3n+1) {
+    color:darksalmon;
+}
+
+img {
+    max-width:100%;
+}
+.nth-of-type img:nth-of-type(2n+1) {
+    display: block;
+    padding: 1em;
+    background-color: aqua;
+}
+
+.nth-of-type img:nth-of-type(2n+0) { 
+    display:block; 
+    padding:1em; 
+    background-color: blanchedalmond;
+}
+
+/* More pseudo element selectors */
+
+p::first-letter {
+    background-color: deeppink;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 2em;
+    padding: .4em .52em;
+
+}
